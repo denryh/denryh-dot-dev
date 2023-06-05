@@ -12,7 +12,21 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      animation: {
+        'typewriter-cursor': 'typewriter-cursor .5s linear alternate infinite',
+      },
+      keyframes: {
+        'typewriter-cursor': {
+          '0%, 50%': {
+            opacity: 1,
+          },
+          '60%, 100%': {
+            opacity: 0,
+          },
+        },
+      },
     },
   },
   plugins: [],
+  darkMode: 'class',
 }

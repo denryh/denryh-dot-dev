@@ -1,4 +1,4 @@
-import Blogs from '~/components/Blogs'
+import Blogs from './blogs/components/Blogs'
 import TypeWriter from '~/components/TypeWriter'
 
 export default function Home() {
